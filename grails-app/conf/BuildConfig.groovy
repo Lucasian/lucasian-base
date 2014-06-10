@@ -40,6 +40,8 @@ grails.project.dependency.resolution = {
         mavenLocal()
         grailsCentral()
         mavenCentral()
+        jcenter()
+        mavenRepo "http://dl.bintray.com/iamedu/maven/"
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
@@ -70,6 +72,7 @@ grails.project.dependency.resolution = {
 
         runtime ":cors:1.1.6"
         compile ":shiro:1.2.1"
+        runtime ":cache-redis:1.1.0"
 
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.7.4"
